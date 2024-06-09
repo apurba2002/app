@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="EditTextHintStyle" parent="Widget.AppCompat.EditText">
+        <!-- Set the hint color -->
+        <item name="android:textColorHint">#FFAABBCC</item> <!-- Replace #FFAABBCC with your desired color -->
+    </style>
+</resources>

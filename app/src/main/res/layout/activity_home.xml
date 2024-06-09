@@ -1,0 +1,331 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/black"
+    tools:context=".Home">
+
+    
+    <LinearLayout
+        android:layout_width="384dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="26dp"
+        android:layout_marginLeft="16dp"
+        >
+        <ImageView
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:src="@drawable/profilepic"
+            android:layout_marginTop="3dp"
+            android:layout_marginRight="16dp"
+            android:id="@+id/img"
+            android:background="@drawable/shape"
+
+            />
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            >
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=""
+                android:id="@+id/name"
+                android:textColor="@color/white"
+                android:textSize="16dp"
+                android:fontFamily="@font/poppinssemibold"
+                android:layout_marginTop="5dp"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=""
+                android:id="@+id/email"
+                android:textColor="@color/white"
+                android:textSize="12dp"
+                android:fontFamily="@font/poppinslight"
+
+                />
+
+        </LinearLayout>
+
+    </LinearLayout>
+    <ImageView
+        android:layout_width="352dp"
+        android:layout_height="200dp"
+        android:src="@drawable/homeimage"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="16dp"
+        android:id="@+id/gallery"
+
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Welcome To"
+        android:textColor="@color/white"
+        android:textSize="18dp"
+        android:fontFamily="@font/poppinsregular"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="16dp"
+
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Graphics Arts Institute"
+        android:textColor="@color/white"
+        android:textSize="20dp"
+        android:fontFamily="@font/poppinsbold"
+        android:layout_marginLeft="16dp"
+
+
+
+        />
+    <LinearLayout
+        android:layout_width="352dp"
+        android:layout_height="150dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="16dp"
+        >
+        <LinearLayout
+            android:layout_width="168dp"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:background="@drawable/shape"
+            android:gravity="center_vertical"
+            android:id="@+id/attendence"
+
+            >
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+
+
+                >
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/attendencelogo"
+
+                    android:layout_marginLeft="16dp"
+                    />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Take new"
+                    android:textColor="@color/white"
+                    android:textSize="12dp"
+                    android:layout_marginTop="12dp"
+                    android:fontFamily="@font/poppinsregular"
+                    android:layout_marginLeft="16dp"
+
+
+                    />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Attedance"
+                    android:textColor="@color/white"
+                    android:textSize="16dp"
+
+                    android:fontFamily="@font/poppinssemibold"
+                    android:layout_marginLeft="16dp"
+
+
+                    />
+            </LinearLayout>
+
+            
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="168dp"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:background="@drawable/shape"
+            android:gravity="center_vertical"
+            android:layout_marginLeft="16dp"
+            android:id="@+id/database"
+            >
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+
+
+                >
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/database"
+
+                    android:layout_marginLeft="16dp"
+                    />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Institute"
+                    android:textColor="@color/white"
+                    android:textSize="12dp"
+                    android:layout_marginTop="12dp"
+                    android:fontFamily="@font/poppinsregular"
+                    android:layout_marginLeft="16dp"
+
+
+                    />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Database"
+                    android:textColor="@color/white"
+                    android:textSize="16dp"
+
+                    android:fontFamily="@font/poppinssemibold"
+                    android:layout_marginLeft="16dp"
+
+
+                    />
+            </LinearLayout>
+
+
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="352dp"
+        android:layout_height="150dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="16dp"
+        >
+        <LinearLayout
+            android:layout_width="168dp"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:background="@drawable/shape"
+            android:gravity="center_vertical"
+
+            >
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+
+
+                >
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/routinelogo"
+
+                    android:layout_marginLeft="16dp"
+                    />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="See the"
+                    android:textColor="@color/white"
+                    android:textSize="12dp"
+                    android:layout_marginTop="12dp"
+                    android:fontFamily="@font/poppinsregular"
+                    android:layout_marginLeft="16dp"
+
+
+                    />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Daily routines"
+                    android:textColor="@color/white"
+                    android:textSize="16dp"
+
+                    android:fontFamily="@font/poppinssemibold"
+                    android:layout_marginLeft="16dp"
+
+
+                    />
+            </LinearLayout>
+
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="168dp"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:background="@drawable/shape"
+            android:gravity="center_vertical"
+            android:layout_marginLeft="16dp"
+            android:id="@+id/about"
+            >
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+
+
+                >
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/about"
+
+                    android:layout_marginLeft="16dp"
+                    />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Know more"
+                    android:textColor="@color/white"
+                    android:textSize="12dp"
+                    android:layout_marginTop="12dp"
+                    android:fontFamily="@font/poppinsregular"
+                    android:layout_marginLeft="16dp"
+
+
+                    />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="About GAI"
+                    android:textColor="@color/white"
+                    android:textSize="16dp"
+
+                    android:fontFamily="@font/poppinssemibold"
+                    android:layout_marginLeft="16dp"
+
+
+                    />
+            </LinearLayout>
+
+
+        </LinearLayout>
+    </LinearLayout>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="All copyright reserved by 7c2 Group 4 ©2024"
+        android:textColor="@color/white"
+        android:textSize="12dp"
+        android:fontFamily="@font/poppinslight"
+        android:layout_gravity="center"
+
+        android:layout_marginTop="50dp"
+
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Sign out"
+        android:textColor="@color/white"
+        android:textSize="12dp"
+        android:fontFamily="@font/poppinslight"
+        android:layout_gravity="center"
+
+        android:layout_marginTop="5dp"
+        android:id="@+id/tt"
+
+        />
+</LinearLayout>
